@@ -1,7 +1,6 @@
 section {
   height: 500px;
   background-color: white;
-
 }
 .hero {
   background-color: #1c1d25;
@@ -12,7 +11,9 @@ section {
 
 footer {
   background-color: black;
-  height: 500px;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
 nav {
   display: flex;
@@ -41,9 +42,9 @@ p {
   font-weight: 300;
   font-size: 30px;
 }
-.subtext{
+.subtext {
   font-size: 15px;
-font-weight: 300;
+  font-weight: 300;
 }
 
 .hero-area {
@@ -95,6 +96,7 @@ font-weight: 300;
   border-radius: 150px;
   margin-left: 80px;
 }
+
 .headshot-container {
   display: flex;
   align-items: center;
@@ -102,7 +104,7 @@ font-weight: 300;
 .project-card {
   width: 300px;
   height: 500px;
-  box-shadow: 5px 5px 20px grey;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
 }
 .project-container {
@@ -113,5 +115,15 @@ font-weight: 300;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+padding:210px;
+}
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+hr{
+  margin-right: 20px;
+  margin-left: 20px;
+
 }
