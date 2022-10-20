@@ -41,6 +41,10 @@ p {
   font-weight: 300;
   font-size: 30px;
 }
+.subtext{
+  font-size: 15px;
+font-weight: 300;
+}
 
 .hero-area {
   display: flex;
