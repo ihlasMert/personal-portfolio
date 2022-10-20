@@ -115,15 +115,18 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-padding:210px;
+  padding: 210px;
 }
 .project-image {
   margin-top: 25px;
   width: 250px;
   border-radius: 125px;
 }
-hr{
+hr {
   margin-right: 20px;
   margin-left: 20px;
-
+}
+.project-link{
+  text-decoration: none;
+  color: #ef744b;
 }
