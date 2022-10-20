@@ -26,6 +26,12 @@ ul {
   justify-content: space-around;
   font-size: 30px;
 }
+ul.show {
+  display: block;
+}
+.bar:focus {
+  outline: none;
+}
 li {
   text-decoration: none;
 }
@@ -134,10 +140,108 @@ a {
   text-decoration: none;
   color: white;
 }
+.bar {
+  display: none;
+}
 
 @media only screen and (max-width: 1000px) {
   .project-container {
     display: flex !important;
     flex-wrap: wrap !important;
+  }
+  .bar {
+    display: flex;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+  }
+  ul {
+    display: none;
+  }
+  .hero-text h1 {
+    font-size: 13px !important;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .bar {
+    display: block;
+    background-color: #1c1d25;
+    margin: 20px;
+    align-items: flex-start;
+    font-size: 30px;
+    color: white;
+  }
+  ul {
+    display: none;
+  }
+  nav {
+    align-items: flex-start;
+    display: flex;
+    /*  flex-direction: column-reverse; */
+  }
+  .logo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sub-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .sub-section .information h2 {
+    padding: 0px;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .sub-section .button {
+    width: 70%;
+    height: 10%;
+    text-align: center;
+    padding-bottom: -10px;
+  }
+  .sub-section p {
+    font-size: 20px;
+  }
+  .headshot-container {
+    width: 0.4%;
+    height: 3%;
+    margin-right: 200%;
+  }
+  footer {
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1d25;
+    height: 100vh;
+  }
+  footer h2 {
+    font-size: 15px;
+    display: flex;
+    margin-left: 40%;
+  }
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 90px;
+  }
+  .hero-text{
+    text-align: justify;
+    margin-left: 10px;
+  }
+ .sub-section-alternative h1{
+font-size: 40px;
+display: flex;
+justify-content: center;
+background-color: red;
   }
 }
