@@ -1,7 +1,7 @@
 section {
   height: 500px;
   background-color: white;
-  border: 1px solid black;
+
 }
 .hero {
   background-color: #1c1d25;
@@ -32,6 +32,16 @@ h1 {
   font-size: 90px;
   margin: 0;
 }
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 30px;
+}
+
 .hero-area {
   display: flex;
   height: 100%;
@@ -53,25 +63,51 @@ h1 {
   padding-top: 5px;
   margin-top: 20px;
 }
-p {
-  margin: 0;
-  font-weight: 300;
-  font-size: 30px;
-}
-.button:hover{
+
+.button:hover {
   background-color: #ef744b;
 }
-.button:active{
+.button:active {
   background-color: #a9a9a9;
   color: #808080;
 }
-.socials{
+.socials {
   padding-bottom: 200px;
 }
-.logo{
+.logo {
   height: 90px;
   margin: 10px;
 }
-.social{
+.social {
   margin: 20px;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 80px;
+}
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px grey;
+  margin: 10px;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
 }
